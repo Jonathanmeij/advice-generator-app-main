@@ -1,0 +1,84 @@
+html {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    
+}
+
+body {
+    background-color: hsl(218, 23%, 16%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.attribution {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+    color: rgb(197, 197, 197);
+}
+
+
+
+h1 {
+    color: hsl(193, 38%, 86%);
+    margin: 0 15px 40px 15px;
+    text-align: center;
+    font-size: 28px;
+    
+}
+
+p {
+    text-align: center;
+    color: hsl(150, 100%, 66%);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    padding: 45px;
+    padding-bottom: 35px;
+    margin: 0px;
+}
+
+.advice {
+    background-color: hsl(217, 19%, 24%);
+    display: inline-block;
+    max-width: 550px;
+    margin: 10px;   
+    border-radius: 15px;
+}
+
+button{
+    position: relative;
+    border-style: none;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: hsl(150, 100%, 66%); 
+    transform: translate(0, 50%);
+}
+
+button:hover{
+    box-shadow: 0 0 35px hsl(150, 100%, 66%);
+}
+
+button img {
+    position:absolute;
+    top: 50%;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.divider {
+    margin: 0 10px 0px 10px;
+}
+
+@media screen and (max-width: 540px){   
+    .divider{      
+        content:url("images/pattern-divider-mobile.svg");
+    } 
+}
